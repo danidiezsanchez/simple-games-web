@@ -1,0 +1,23 @@
+{
+  "name": "simple-games-web",
+  "version": "1.0.0",
+  "description": "Simple Games: handmade indie puzzle and card games website",
+  "type": "module",
+  "scripts": {
+    "serve": "npx http-server public -p 8000 -o",
+    "start": "npx http-server public -p 8000",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'Add ESLint/Stylelint as needed'"
+  },
+  "keywords": [
+    "games",
+    "indie",
+    "sudoku",
+    "solitaire",
+    "mobile"
+  ],
+  "author": "Daniel Diez",
+  "license": "MIT",
+  "devDependencies": {},
+  "homepage": "https://simplegames.dev"
+}
